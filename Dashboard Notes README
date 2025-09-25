@@ -1,0 +1,51 @@
+# Unity Financial Performance Dashboard  
+
+A sample **Power BI dashboard** built with free data to showcase financial performance reporting, business intelligence, and data analytics using Power BI.  
+
+---
+
+## 📖 Overview  
+This project demonstrates how development-sector organisations can transform financial data into actionable insights. The dashboard highlights **profitability, efficiency, and risk indicators** through interactive visuals, with a focus on transparency and ease of interpretation.  
+
+---
+
+## 🎯 What It Shows  
+- **Profitability**: Net Surplus, Operating Profit, Gross Profit  
+- **Efficiency**: Cost-to-Income Ratio, Operating Expense breakdown  
+- **Balance Sheet Strength**: Assets, Liabilities, Equity, and composition  
+- **Risk & Liquidity**: Return on Assets (ROA), Return on Equity (ROE), Liquidity Ratio, and Savings-to-Loans  
+
+---
+
+## 🛠️ Tools & Skills Demonstrated  
+- **Power BI** for dashboard design and interactive reporting  
+- **Power Query** for data cleaning and transformation  
+- **DAX** measures for profitability, efficiency, and risk ratios  
+- **Data Modelling** (fact and dimension tables for financial reporting)  
+- **Visual Analytics** to tell a clear story for management decision-making  
+
+---
+
+## 🧮 Key DAX Measures  
+```DAX
+Gross Profit = [Revenue] - [Cost of Funds]  
+Operating Profit = [Gross Profit] - [Operating Expenses]  
+Net Surplus = [Operating Profit]  
+Cost to Income Ratio = DIVIDE([Operating Expenses],[Revenue])  
+ROA = DIVIDE([Net Surplus],[Assets])  
+ROE = DIVIDE([Net Surplus],[Equity])  
+
+---
+## 📊 Example Insights
+Profitability is solid: Net Surplus ₵155.7K; C/I Ratio 44.4%
+Assets >₵3M with stable equity base
+ROA (4%) and ROE (16%) reflect resilience
+Personnel & Administration >70% of Opex → efficiency opportunity
+
+---
+## 🔑 Why This Matters for Employers
+This project shows how I:
+- Translate complex financial data into insightful dashboards
+- Apply MERL principles to financial performance tracking
+- Use digital tools (Power BI, Power Query, SQL, Excel automation) to drive evidence-based decisions
+- Deliver outputs that are replicable across NGOs, SMEs, and development projects
